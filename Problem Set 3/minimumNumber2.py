@@ -1,7 +1,10 @@
 a = int(input("What's the first number? "))
 b = int(input("What's the second number? "))
+x = 0
 
 if a < b:
-    print(a)
+    x = a
 else:
-    print(b)
+    x = b
+
+print("The smaller number is " + str(x) + ".")
