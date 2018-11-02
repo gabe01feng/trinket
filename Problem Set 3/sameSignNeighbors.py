@@ -1,0 +1,6 @@
+a = input().split()
+
+for i in range(1, len(a)):
+    if int(a[i]) / abs(int(a[i])) == int(a[i - 1]) / abs(int(a[i - 1])):
+        print(a[i - 1], a[i])
+        break
